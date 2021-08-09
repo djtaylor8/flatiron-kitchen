@@ -1,0 +1,8 @@
+<h3>Edit Ingredient</h3>
+<p>
+<%= form_for @ingredient do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+</p>
+<%= f.submit %>
+<% end %>
